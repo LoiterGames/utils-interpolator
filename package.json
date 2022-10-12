@@ -1,0 +1,17 @@
+{
+  "name": "@fuoji/interpolator",
+  "version": "1.0.0",
+  "main": "src/_index.gen.js",
+  "scripts": {
+    "build": "gulp generate",
+    "dev" : "gulp generateAndWatch"
+  },
+  "author": "nikitka",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "fs-readdir-recursive": "^1.1.0",
+    "gulp": "^4.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
