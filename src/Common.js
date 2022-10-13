@@ -1,3 +1,5 @@
+import SnapshotPool from "./SnapshotPool.js";
+
 /**
  * @callback LerpFunction
  * @template T
@@ -6,8 +8,6 @@
  * @param t {number}
  * @returns {T}
  */
-import SnapshotPool from "./SnapshotPool.js";
-
 const LerpFunction = (start, end, t) => {
 
 }
