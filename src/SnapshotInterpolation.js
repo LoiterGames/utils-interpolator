@@ -55,7 +55,7 @@ export default class SnapshotInterpolation {
      * @returns {InterpolatedSnapshot | undefined}
      */
     calcInterpolation() {
-        if (this.vault.size === 0) return undefined
+        if (this.vault.size < 3) return undefined
 
         const serverTime = Date.now() - this._timeOffset - this._interpolationBuffer
 
